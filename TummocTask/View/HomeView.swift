@@ -49,7 +49,7 @@ struct HomeView: View {
         ZStack(alignment: .bottom){
             VStack(alignment: .leading){
                 ZStack(alignment: .bottom){
-                    Color.orange
+                     LinearGradient(colors: [Color.orange,Color.orange.opacity(0.5)], startPoint: .top, endPoint: .bottom)
                     HStack(alignment: .center,spacing: 20){
                         ForEach(menuItems){ item in
                             if let index = menuItems.firstIndex(where: { menuItem in
