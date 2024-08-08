@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A24FCC2C62330700A8CFB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A24FCB2C62330700A8CFB6 /* HomeView.swift */; };
+		55A3D5762C624C9900323DFA /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5752C624C9900323DFA /* CategoryModel.swift */; };
+		55A3D5782C624F9200323DFA /* ResponceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5772C624F9200323DFA /* ResponceViewModel.swift */; };
+		55A3D57A2C62564300323DFA /* ProdectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D5792C62564300323DFA /* ProdectListView.swift */; };
+		55A3D57C2C6258B500323DFA /* ProdectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A3D57B2C6258B500323DFA /* ProdectView.swift */; };
+		55B1ADBE2C637A4A003D6986 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1ADBD2C637A4A003D6986 /* FavouriteView.swift */; };
+		55B1ADC02C6387B7003D6986 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1ADBF2C6387B7003D6986 /* CartView.swift */; };
+		55B1ADC32C638974003D6986 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55B1ADC12C638974003D6986 /* CoreDataModel.xcdatamodeld */; };
+		55B1ADC62C63899B003D6986 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B1ADC52C63899B003D6986 /* CoreDataManager.swift */; };
+		55F4EA0D2C558D2B00BECC30 /* TummocTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4EA0C2C558D2B00BECC30 /* TummocTaskApp.swift */; };
+		55F4EA0F2C558D2B00BECC30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4EA0E2C558D2B00BECC30 /* ContentView.swift */; };
+		55F4EA112C558D3200BECC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F4EA102C558D3200BECC30 /* Assets.xcassets */; };
+		55F4EA152C558D3200BECC30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F4EA142C558D3200BECC30 /* Preview Assets.xcassets */; };
+		55F4EA1F2C558D3300BECC30 /* TummocTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4EA1E2C558D3300BECC30 /* TummocTaskTests.swift */; };
+		55F4EA292C558D3300BECC30 /* TummocTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4EA282C558D3300BECC30 /* TummocTaskUITests.swift */; };
+		55F4EA2B2C558D3300BECC30 /* TummocTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4EA2A2C558D3300BECC30 /* TummocTaskUITestsLaunchTests.swift */; };
+		55F4EA3B2C558E0700BECC30 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F4EA3A2C558E0700BECC30 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55F4EA1B2C558D3300BECC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F4EA012C558D2B00BECC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F4EA082C558D2B00BECC30;
+			remoteInfo = TummocTask;
+		};
+		55F4EA252C558D3300BECC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55F4EA012C558D2B00BECC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F4EA082C558D2B00BECC30;
+			remoteInfo = TummocTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		555604632C5A915F00AEEAC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		55A24FCB2C62330700A8CFB6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		55A3D5752C624C9900323DFA /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		55A3D5772C624F9200323DFA /* ResponceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponceViewModel.swift; sourceTree = "<group>"; };
+		55A3D5792C62564300323DFA /* ProdectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdectListView.swift; sourceTree = "<group>"; };
+		55A3D57B2C6258B500323DFA /* ProdectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdectView.swift; sourceTree = "<group>"; };
+		55B1ADBD2C637A4A003D6986 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		55B1ADBF2C6387B7003D6986 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		55B1ADC22C638974003D6986 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		55B1ADC52C63899B003D6986 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		55F4EA092C558D2B00BECC30 /* TummocTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TummocTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F4EA0C2C558D2B00BECC30 /* TummocTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TummocTaskApp.swift; sourceTree = "<group>"; };
+		55F4EA0E2C558D2B00BECC30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55F4EA102C558D3200BECC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55F4EA122C558D3200BECC30 /* TummocTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TummocTask.entitlements; sourceTree = "<group>"; };
+		55F4EA142C558D3200BECC30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55F4EA1A2C558D3200BECC30 /* TummocTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TummocTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F4EA1E2C558D3300BECC30 /* TummocTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TummocTaskTests.swift; sourceTree = "<group>"; };
+		55F4EA242C558D3300BECC30 /* TummocTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TummocTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F4EA282C558D3300BECC30 /* TummocTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TummocTaskUITests.swift; sourceTree = "<group>"; };
+		55F4EA2A2C558D3300BECC30 /* TummocTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TummocTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55F4EA3A2C558E0700BECC30 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F4EA062C558D2B00BECC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F4EA172C558D3200BECC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F4EA212C558D3300BECC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B1ADC42C63897F003D6986 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				55B1ADC12C638974003D6986 /* CoreDataModel.xcdatamodeld */,
+				55B1ADC52C63899B003D6986 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		55F4EA002C558D2B00BECC30 = {
+			isa = PBXGroup;
+			children = (
+				55F4EA0B2C558D2B00BECC30 /* TummocTask */,
+				55F4EA1D2C558D3300BECC30 /* TummocTaskTests */,
+				55F4EA272C558D3300BECC30 /* TummocTaskUITests */,
+				55F4EA0A2C558D2B00BECC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F4EA0A2C558D2B00BECC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F4EA092C558D2B00BECC30 /* TummocTask.app */,
+				55F4EA1A2C558D3200BECC30 /* TummocTaskTests.xctest */,
+				55F4EA242C558D3300BECC30 /* TummocTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F4EA0B2C558D2B00BECC30 /* TummocTask */ = {
+			isa = PBXGroup;
+			children = (
+				555604632C5A915F00AEEAC4 /* Info.plist */,
+				55F4EA0C2C558D2B00BECC30 /* TummocTaskApp.swift */,
+				55F4EA0E2C558D2B00BECC30 /* ContentView.swift */,
+				55B1ADC42C63897F003D6986 /* CoreData */,
+				55F4EA372C558DC700BECC30 /* Model */,
+				55F4EA382C558DD300BECC30 /* ViewModel */,
+				55F4EA392C558DDF00BECC30 /* View */,
+				55F4EA102C558D3200BECC30 /* Assets.xcassets */,
+				55F4EA122C558D3200BECC30 /* TummocTask.entitlements */,
+				55F4EA132C558D3200BECC30 /* Preview Content */,
+			);
+			path = TummocTask;
+			sourceTree = "<group>";
+		};
+		55F4EA132C558D3200BECC30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55F4EA142C558D3200BECC30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55F4EA1D2C558D3300BECC30 /* TummocTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				55F4EA1E2C558D3300BECC30 /* TummocTaskTests.swift */,
+			);
+			path = TummocTaskTests;
+			sourceTree = "<group>";
+		};
+		55F4EA272C558D3300BECC30 /* TummocTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55F4EA282C558D3300BECC30 /* TummocTaskUITests.swift */,
+				55F4EA2A2C558D3300BECC30 /* TummocTaskUITestsLaunchTests.swift */,
+			);
+			path = TummocTaskUITests;
+			sourceTree = "<group>";
+		};
+		55F4EA372C558DC700BECC30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5752C624C9900323DFA /* CategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55F4EA382C558DD300BECC30 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				55A3D5772C624F9200323DFA /* ResponceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55F4EA392C558DDF00BECC30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55F4EA3A2C558E0700BECC30 /* MainView.swift */,
+				55A24FCB2C62330700A8CFB6 /* HomeView.swift */,
+				55A3D5792C62564300323DFA /* ProdectListView.swift */,
+				55A3D57B2C6258B500323DFA /* ProdectView.swift */,
+				55B1ADBD2C637A4A003D6986 /* FavouriteView.swift */,
+				55B1ADBF2C6387B7003D6986 /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F4EA082C558D2B00BECC30 /* TummocTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F4EA2E2C558D3300BECC30 /* Build configuration list for PBXNativeTarget "TummocTask" */;
+			buildPhases = (
+				55F4EA052C558D2B00BECC30 /* Sources */,
+				55F4EA062C558D2B00BECC30 /* Frameworks */,
+				55F4EA072C558D2B00BECC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TummocTask;
+			productName = TummocTask;
+			productReference = 55F4EA092C558D2B00BECC30 /* TummocTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55F4EA192C558D3200BECC30 /* TummocTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F4EA312C558D3300BECC30 /* Build configuration list for PBXNativeTarget "TummocTaskTests" */;
+			buildPhases = (
+				55F4EA162C558D3200BECC30 /* Sources */,
+				55F4EA172C558D3200BECC30 /* Frameworks */,
+				55F4EA182C558D3200BECC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F4EA1C2C558D3300BECC30 /* PBXTargetDependency */,
+			);
+			name = TummocTaskTests;
+			productName = TummocTaskTests;
+			productReference = 55F4EA1A2C558D3200BECC30 /* TummocTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55F4EA232C558D3300BECC30 /* TummocTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F4EA342C558D3300BECC30 /* Build configuration list for PBXNativeTarget "TummocTaskUITests" */;
+			buildPhases = (
+				55F4EA202C558D3300BECC30 /* Sources */,
+				55F4EA212C558D3300BECC30 /* Frameworks */,
+				55F4EA222C558D3300BECC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F4EA262C558D3300BECC30 /* PBXTargetDependency */,
+			);
+			name = TummocTaskUITests;
+			productName = TummocTaskUITests;
+			productReference = 55F4EA242C558D3300BECC30 /* TummocTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F4EA012C558D2B00BECC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					55F4EA082C558D2B00BECC30 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					55F4EA192C558D3200BECC30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 55F4EA082C558D2B00BECC30;
+					};
+					55F4EA232C558D3300BECC30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 55F4EA082C558D2B00BECC30;
+					};
+				};
+			};
+			buildConfigurationList = 55F4EA042C558D2B00BECC30 /* Build configuration list for PBXProject "TummocTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55F4EA002C558D2B00BECC30;
+			packageReferences = (
+			);
+			productRefGroup = 55F4EA0A2C558D2B00BECC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F4EA082C558D2B00BECC30 /* TummocTask */,
+				55F4EA192C558D3200BECC30 /* TummocTaskTests */,
+				55F4EA232C558D3300BECC30 /* TummocTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F4EA072C558D2B00BECC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4EA152C558D3200BECC30 /* Preview Assets.xcassets in Resources */,
+				55F4EA112C558D3200BECC30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F4EA182C558D3200BECC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F4EA222C558D3300BECC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F4EA052C558D2B00BECC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B1ADC02C6387B7003D6986 /* CartView.swift in Sources */,
+				55A3D57C2C6258B500323DFA /* ProdectView.swift in Sources */,
+				55B1ADC32C638974003D6986 /* CoreDataModel.xcdatamodeld in Sources */,
+				55A3D5762C624C9900323DFA /* CategoryModel.swift in Sources */,
+				55A3D5782C624F9200323DFA /* ResponceViewModel.swift in Sources */,
+				55F4EA0F2C558D2B00BECC30 /* ContentView.swift in Sources */,
+				55B1ADC62C63899B003D6986 /* CoreDataManager.swift in Sources */,
+				55A24FCC2C62330700A8CFB6 /* HomeView.swift in Sources */,
+				55F4EA3B2C558E0700BECC30 /* MainView.swift in Sources */,
+				55F4EA0D2C558D2B00BECC30 /* TummocTaskApp.swift in Sources */,
+				55B1ADBE2C637A4A003D6986 /* FavouriteView.swift in Sources */,
+				55A3D57A2C62564300323DFA /* ProdectListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F4EA162C558D3200BECC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4EA1F2C558D3300BECC30 /* TummocTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F4EA202C558D3300BECC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4EA2B2C558D3300BECC30 /* TummocTaskUITestsLaunchTests.swift in Sources */,
+				55F4EA292C558D3300BECC30 /* TummocTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55F4EA1C2C558D3300BECC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F4EA082C558D2B00BECC30 /* TummocTask */;
+			targetProxy = 55F4EA1B2C558D3300BECC30 /* PBXContainerItemProxy */;
+		};
+		55F4EA262C558D3300BECC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F4EA082C558D2B00BECC30 /* TummocTask */;
+			targetProxy = 55F4EA252C558D3300BECC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55F4EA2C2C558D3300BECC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55F4EA2D2C558D3300BECC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		55F4EA2F2C558D3300BECC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TummocTask/TummocTask.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TummocTask/Preview Content\"";
+				DEVELOPMENT_TEAM = N669JYH3R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TummocTask/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TummocTask.com.TummocTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55F4EA302C558D3300BECC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TummocTask/TummocTask.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TummocTask/Preview Content\"";
+				DEVELOPMENT_TEAM = N669JYH3R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TummocTask/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TummocTask.com.TummocTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55F4EA322C558D3300BECC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N669JYH3R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TummocTask.com.TummocTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TummocTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TummocTask";
+			};
+			name = Debug;
+		};
+		55F4EA332C558D3300BECC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N669JYH3R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TummocTask.com.TummocTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TummocTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TummocTask";
+			};
+			name = Release;
+		};
+		55F4EA352C558D3300BECC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N669JYH3R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TummocTask.com.TummocTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TummocTask;
+			};
+			name = Debug;
+		};
+		55F4EA362C558D3300BECC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N669JYH3R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TummocTask.com.TummocTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TummocTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F4EA042C558D2B00BECC30 /* Build configuration list for PBXProject "TummocTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F4EA2C2C558D3300BECC30 /* Debug */,
+				55F4EA2D2C558D3300BECC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F4EA2E2C558D3300BECC30 /* Build configuration list for PBXNativeTarget "TummocTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F4EA2F2C558D3300BECC30 /* Debug */,
+				55F4EA302C558D3300BECC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F4EA312C558D3300BECC30 /* Build configuration list for PBXNativeTarget "TummocTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F4EA322C558D3300BECC30 /* Debug */,
+				55F4EA332C558D3300BECC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F4EA342C558D3300BECC30 /* Build configuration list for PBXNativeTarget "TummocTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F4EA352C558D3300BECC30 /* Debug */,
+				55F4EA362C558D3300BECC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		55B1ADC12C638974003D6986 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				55B1ADC22C638974003D6986 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 55B1ADC22C638974003D6986 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 55F4EA012C558D2B00BECC30 /* Project object */;
+}
